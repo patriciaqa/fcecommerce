@@ -10,22 +10,8 @@ Before do
     find("#EmailAddress").set "testautomationfcamara@gmail.com"
     find("#Password").set "Fcamara2020"
     find("#sign-in-button").click
-    sleep 10
+    sleep 10 #think time
   end
-
-# After("@deslogar") do
-
-# end
-
-# After do |scenario|
-#     temp_shot = page.save_screenshot("logs/temp_shot.png")
-#     screenshot = Base64.encode64(File.open(temp_shot, "rb").read)
-#     embed(screenshot, "image/png", "Screenshot")
-# end
-
-# Before ("@limpacarrinho") do
-
-# end 
 
 After do |scenario|
   nome = scenario.name.tr(' ', '_').downcase!
