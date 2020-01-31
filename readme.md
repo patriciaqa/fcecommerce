@@ -1,4 +1,4 @@
-<h3> Testes automatizados com Ruby, Cucumber, Capybara, Selenium, Site Prism </h3>
+<h3> Testes automatizados com Ruby, Cucumber, Capybara, Selenium, Page Object </h3>
 
 [Para executar]
 
@@ -13,6 +13,6 @@ Configuração do ambiente necessária:
 3. Execute: bundle install
 3. Execute: Cucumber (windows) ou bundle exec cucumber(linux/Mac) 
 
-[Report] Relatório de execução está disponível em Camara\logs
+[Report] Relatório de execução está disponível em fcecommerce\log
 
 [Contato] patricia-neris@outlook.com
