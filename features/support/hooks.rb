@@ -1,7 +1,8 @@
 Before do
     page.current_window.resize_to(1536, 864)
+    Base.new
+    @compra_page = CompraPage.new
   end
-
 
   Before ("@autenticado") do
     visit("/pt-br")
@@ -10,7 +11,7 @@ Before do
     find("#EmailAddress").set "testautomationfcamara@gmail.com"
     find("#Password").set "Fcamara2020"
     find("#sign-in-button").click
-    sleep 10 #think time
+    sleep 3 #think time
   end
 
 After do |scenario|

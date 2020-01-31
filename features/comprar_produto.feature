@@ -18,4 +18,3 @@ Cenário: Compra com sucesso
     E quer comprar o produto "notebook dell i5 15"
     Quando compra o produto via boleto
     Então devo visualizar o boleto gerado com valor do produto
-    E o produto deve ser armazenado na lista de compras realizadas
